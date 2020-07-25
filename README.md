@@ -18,11 +18,11 @@ A Fibonacci word, similar to how Fibonacci numbers are formed by repeated additi
 
 ## Purpose
 
-Produces a .bmp image corresponding to the _n_ th Fibonacci word.
+Produces a .bmp image corresponding to the nth Fibonacci word.
 
 ## Algorithm
 
-The program will take in an integer _n_ and iterate through each digit of the Fibonacci word, drawing the segment, then determining in which direction the next segment should be drawn; turning left 90 degrees if the digit is even and right if it is odd. The initial segment must be drawn upwards.
+The program will take in an integer _n_ and iterate through each digit of the nth Fibonacci word, drawing the segment, then determining in which direction the next segment should be drawn; turning left 90 degrees if the digit is even and right if it is odd. The initial segment must be drawn upwards.
 
 ## Makefile Parameters
 
