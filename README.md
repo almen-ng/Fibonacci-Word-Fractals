@@ -46,8 +46,14 @@ where:
 
 To run the program, you would have to have gcc and make installed. 
 To run the make file, follow these commands:
->make
+>make\
 OR
->make fib
->make runall
->make clean
+>make fib\
+>make runall\
+>make clean\
+
+## Sample Results
+![n=7](./images/fib7.png)
+![n=9](./images/fib9.png)
+![n=25](./images/fib25.png)
+![n=26](./images/fib26.png)
