@@ -27,7 +27,7 @@ The program will take in an integer _n_ and iterate through each digit of the nt
 ## Makefile Parameters
 
 ~~~
-./fib n x y step bc fc w h image
+./fib n x y step w h image
 ~~~
 
 where:
@@ -36,8 +36,6 @@ where:
 * _x_ - x-coordinate of the initial position
 * _y_ - y-coordinate of the initial position
 * _step_ - number of pixels for each segment
-* _bc_ - background colour
-* _fc_ - foreground colour; the colour of the line used to draw fractal
 * _w_ - width of image in pixels
 * _h_ - length of image in pixels
 * _image_ - name of the outputed .bmp image
@@ -46,14 +44,34 @@ where:
 
 To run the program, you would have to have gcc and make installed. 
 To run the make file, follow these commands:
->make\
+~~~
+make
+~~~
 OR
->make fib\
->make runall\
->make clean\
+~~~
+make fib
+make runall
+make clean
+~~~
+
 
 ## Sample Results
-![n=7](./images/fib7.png)
-![n=9](./images/fib9.png)
-![n=25](./images/fib25.png)
-![n=26](./images/fib26.png)
+<p>n=7, x=10, y=10, step=10, w=100, h=100</p>
+<table><tr><td>
+    <img src="/images/fib7.png" />
+</td></tr></table>
+
+<p>n=9, x=10, y=10, step=10, w=500, h=500</p>
+<table><tr><td>
+    <img src="/images/fib9.png" />
+</td></tr></table>
+
+<p>n=25, x=10, y=10, step=10, w=10000, h=10000</p>
+<table><tr><td>
+    <img src="/images/fib25.png" />
+</td></tr></table>
+
+<p>n=26, x=10, y=10, step=10, w=20000, h=20000</p>
+<table><tr><td>
+    <img src="/images/fib26.png" />
+</td></tr></table>
