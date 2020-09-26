@@ -41,3 +41,13 @@ where:
 * _w_ - width of image in pixels
 * _h_ - length of image in pixels
 * _image_ - name of the outputed .bmp image
+
+## Run Program 
+
+To run the program, you would have to have gcc and make installed. 
+To run the make file, follow these commands:
+>make
+OR
+>make fib
+>make runall
+>make clean
