@@ -40,10 +40,10 @@ where:
 * _h_ - length of image in pixels
 * _image_ - name of the outputed .bmp image
 
-## Run Program 
+## How to Run the Program
 
 To run the program, you would have to have gcc and make installed. 
-To run the make file, follow these commands:
+To run the make file, follow these commands in terminal:
 ~~~
 make
 ~~~
